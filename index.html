@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+<div id="container">
+    <header id="header">
+      <h1 id="title">Survey</h1>
+      <p id="description">Your oppinion is important to us!</p>
+    </header>
+ <form id="survey-form">
+<div id="form-group"> 
+    
+	    <label id="name-label"> 
+		Name
+	   </label> 
+        <input type="text"   
+		id="name"
+		placeholder="Enter your name"
+		name="name"
+		required/>
+</div>
+
+<div id="form-group">
+       <label id="email-label">
+		Your Email	
+       </label>
+	<input id="email"
+		type="email"  
+		placeholder="Enter your email"
+		name="email"
+		required/>
+</div>
+
+<div id="form-group">
+       <label id="number-label">
+		Age	
+       </label>
+	<input id="number"
+	       type="number" 
+	       placeholder="Age"
+	       name="age"
+	       min="16"
+           max="100"/>
+</div>
+	
+  <div id="form-group">
+	<p> How you describes the service?</p>
+  <select name="aboutservice" id="dropdown" required>  
+      
+     <option value="none"> 
+	   </option>
+
+     <option value="Amazing">
+	     Amazing
+     </option>
+     
+     <option value="VeryGood">
+	     Very good
+     </option>
+
+     <option value="Regular">
+	       Regular
+     </option>
+
+     <option value="Bad">
+	       Bad
+     </option>
+
+  </select>
+</div>
+
+<div id="form-group">
+	<p> 
+	Do you like recommend this content some friend?
+	</p> 
+	<label id="recomend1">
+	  <input id="input-radio"
+		type="radio"
+		name="user-recomend"
+		value="button"
+	  />Yes</label>
+		
+	<label id="recomend2">
+	  <input id="input-radio"
+		type="radio"
+		name="user-recomend"
+		value="button"
+	  />No</label>
+</div>
+
+<div id="form-group">
+	<p> What do you most like in this page?</p>
+<select name="mostlike" id="most-like" required>
+			
+		<option value="none">
+		</option>
+		
+		<option value="Content">
+		Design
+		</option>
+
+		<option value="Resourses">
+		Resourses
+		</option>
+
+		<option value="Navegation">
+		Navegation
+		</option>
+
+		<option value="Design">
+		Design
+		</option>
+
+	</select>
+
+</div>
+
+<div id="form-group">
+	<p>What is most interesting for you?</p>
+
+	 <label>
+	   <input id="input-check"
+		 	name="developerweb"
+		  type="checkbox"
+		  value="developweb"/>Develop Web</label>
+	<label>
+	   <input id="input-check"
+		 	name="cloud-computer"
+		  type="checkbox"
+		  value="cloudcomputer"/>Cloud Computer</label>
+<label>
+		<input id="input-check"
+			name="cyber-security"
+		  type="checkbox"
+		  value="cybersequity"/>Cyber Security</label>
+
+	<label>
+		<input id="input-check"
+			name="AI"
+		  type="checkbox"
+		  value="AI"/>AI</label>
+</div>
+
+<div id="form-group">
+	<p> Send a message to us </p>
+
+	<textarea id="comments"	
+		  name="comment"
+	          placeholder="Your message here"></textarea>
+	</div>
+
+<div id="form-group">
+	<button id="submit"
+		name="button-submit">Submit</button>
+	</div>
+  </form>
+</div>
+</body>
+</html>
